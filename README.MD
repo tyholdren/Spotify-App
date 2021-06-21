@@ -53,7 +53,7 @@ There are thousands of genres available on Spotify, to simplify things I've crea
 - emo
 - folk
 - indie
-- r&b
+- r and b
 - funk
 - soul
 - beats
