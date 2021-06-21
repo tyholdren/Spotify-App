@@ -118,9 +118,5 @@ class TrackRecs extends Component {
       getTracks(randomGenre);
     });
   }
-
-  render() {
-    return <div></div>;
-  }
 }
 export default TrackRecs;
