@@ -10,18 +10,21 @@ Anyone who wants discover new music they typically wouldn't, in hopes of broaden
 
 ## How do I get started?
 
-- You will need to create two env files, (1) in the auth-server folder and (1) in the server folder
+- You will need to create two env files, (1) in the auth-server folder and (1) in the server folder.
 
-The env file in the auth-server folder will need the following fields:
+        The env file in the auth-server folder will need the following fields:
 
-client_id (this will be the spotify api client id)
-client_secret (spotify api client secret)
+        1. client_id (this will be the spotify api client id)
 
-The env file in the server folder will need the following fields:
+        2. client_secret (spotify api client secret)
 
-client_id (this will be the spotify api client id)
-client_secret (spotify api client secret)
-mongo_link (this will be your Mongo connection URI)
+        The env file in the server folder will need the following fields:
+
+        1. client_id (this will be the spotify api client id)
+
+        2. client_secret (spotify api client secret)
+
+        3. mongo_link (this will be your Mongo connection URI)
 
 - In your terminal navigate to the auth-server folder and run 'npm install', then 'npm start'
 - Open an additional terminal, navigate to the client folder and run 'npm install', then 'npm run dev'
@@ -43,20 +46,20 @@ Now you know which genres you don't frequent. Use this information to start crea
 
 There are a wide variety of genres available on Spotify, to simplify things I've created a few general genres you can use as keywords to search for music. Use any of the below keywords to search add a specific genre:
 
-        "rock"
-        "rap"
-        "hip hop"
-        "jazz"
-        "country"
-        "emo"
-        "folk"
-        "indie"
-        "r&b"
-        "funk"
-        "soul"
-        "beats"
-        "psychedelic"
-        "grunge"
+"rock"
+"rap"
+"hip hop"
+"jazz"
+"country"
+"emo"
+"folk"
+"indie"
+"r&b"
+"funk"
+"soul"
+"beats"
+"psychedelic"
+"grunge"
 
 Once you've placed in your genre of choice click 'Add Genre' below the searchbar. Your playlist should generate. At any time you can hover over the image loaded in your playlist and click on the image to listen to the song.
 
