@@ -1,4 +1,4 @@
-# Discover New Music by Creating a Playlist of Your Least-Listened to Genres
+# Improve Your Musical Taste
 
 ## Overview
 
@@ -12,13 +12,13 @@ Anyone who wants to broaden their musical scope by discovering new music they ty
 
 You will need to create two .env files: one in the auth-server folder and another one in the server folder.
 
-- The env file in the auth-server folder will require the following fields:
+- The .env file in the auth-server folder will require the following fields:
 
   - client_id (this will be the Spotify api client id)
 
   - client_secret (this will be Spotify api client secret) <br /><br />
 
-- The env file in the server folder will require the following fields:
+- The .env file in the server folder will require the following fields:
 
   - client_id (this will be the Spotify api client id)
 
