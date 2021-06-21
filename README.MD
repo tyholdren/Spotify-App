@@ -7,7 +7,6 @@ Spotify does a great job at recommending music based on a user's liked tracks, b
 ## Who is this application for?
 
 Anyone who wants to broaden their musical scope by discovering new music they typically wouldn't. See a quick demo here: [Spotify Application Demo](https://youtu.be/Gx3xeWWrS24)<br /><br />
-kdkdkd
 
 ## How do I get started?
 
