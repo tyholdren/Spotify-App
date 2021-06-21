@@ -14,17 +14,17 @@ You will need to create two .env files: one in the auth-server folder and anothe
 
 - The env file in the auth-server folder will require the following fields:
 
-  1.  client_id (this will be the Spotify api client id)
+  - client_id (this will be the Spotify api client id)
 
-  2.  client_secret (this will be Spotify api client secret) <br /><br />
+  - client_secret (this will be Spotify api client secret) <br /><br />
 
 - The env file in the server folder will require the following fields:
 
-  1.  client_id (this will be the Spotify api client id)
+  - client_id (this will be the Spotify api client id)
 
-  2.  client_secret (this will be the Spotify api client secret)
+  - client_secret (this will be the Spotify api client secret)
 
-  3.  mongo_link (this will be your Mongo connection URI)<br /><br />
+  - mongo_link (this will be your Mongo connection URI)<br /><br />
 
 - In your terminal navigate to the auth-server folder and run 'npm install', then 'npm start'
 - Open an additional terminal, navigate to the client folder and run 'npm install', then 'npm run dev'
