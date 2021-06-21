@@ -62,7 +62,6 @@ class SubGenres extends Component {
         show: !this.state.show,
         subGenres: subGenreArray,
       });
-      console.log(Object.entries(this.state.subGenres)[0][1]);
     });
   }
 

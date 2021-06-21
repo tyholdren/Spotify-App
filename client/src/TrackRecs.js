@@ -77,29 +77,12 @@ class TrackRecs extends Component {
         spotifyWebApi
           .search(query, ["track"], { limit: 50 })
           .then((response) => {
-            console.log("tyler", response);
             const random = Math.floor(Math.random() * 50);
 
-            console.log(
-              "song link:",
-              response.tracks.items[random].external_urls.spotify
-            );
             const trackLink =
               response.tracks.items[random].external_urls.spotify;
-
-            console.log(
-              "artist image:",
-              response.tracks.items[random].album.images[0].url
-            );
             const image = response.tracks.items[random].album.images[0].url;
-
-            console.log(
-              "artist name:",
-              response.tracks.items[random].artists[0].name
-            );
             const artistName = response.tracks.items[random].artists[0].name;
-
-            console.log("song name:", response.tracks.items[random].name);
             const trackName = response.tracks.items[random].name;
 
             this.setState({
@@ -108,7 +91,6 @@ class TrackRecs extends Component {
               artistName: artistName,
               trackLink: trackLink,
             });
-            console.log(this.state);
           });
       };
 
