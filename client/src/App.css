@@ -30,7 +30,6 @@ html {
 
 .loginButton button:hover {
   color: #fe4c01;
-  margin: 50px 50px 0px 50px;
   background-color: white;
   border-radius: 7px;
   padding: 9px;
