@@ -10,7 +10,7 @@ Anyone who wants discover new music they typically wouldn't, in hopes of broaden
 
 ## How do I get started?
 
-- You will need to create two env files, (1) in the auth-server folder and (1) in the server folder.
+You will need to create two env files, (1) in the auth-server folder and (1) in the server folder.
 
 The env file in the auth-server folder will need the following fields:
 
