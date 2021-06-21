@@ -10,7 +10,7 @@ Anyone who wants discover new music they typically wouldn't, in hopes of broaden
 
 ## How do I get started?
 
-1. [ ] You will need to create two env files, (1) in the auth-server folder and (1) in the server folder
+- You will need to create two env files, (1) in the auth-server folder and (1) in the server folder
 
 The env file in the auth-server folder will need the following fields:
 
@@ -23,11 +23,11 @@ client_id (this will be the spotify api client id)
 client_secret (spotify api client secret)
 mongo_link (this will be your Mongo connection URI)
 
-2. [ ] In your terminal navigate to the auth-server folder and run 'npm install', then 'npm start'
-3. [ ] Open an additional terminal, navigate to the client folder and run 'npm install', then 'npm run dev'
-4. [ ] Create one last terminal, navigate to the server folder and run 'npm install', then 'npm start'
-5. [ ] Now your app is running!
-6. [ ] Navigate to localhost:3000 and click 'Login with Spotify', follow the instructions on this page, and you should be redirected back to the application. Now you the app is up and running!
+- In your terminal navigate to the auth-server folder and run 'npm install', then 'npm start'
+- Open an additional terminal, navigate to the client folder and run 'npm install', then 'npm run dev'
+- Create one last terminal, navigate to the server folder and run 'npm install', then 'npm start'
+- Now your app is running!
+- Navigate to localhost:3000 and click 'Login with Spotify', follow the instructions on this page, and you should be redirected back to the application. Now you the app is up and running!
 
 ## How do I get my information?
 
