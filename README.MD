@@ -14,15 +14,15 @@ You will need to create two env files, (1) in the auth-server folder and (1) in 
 
 The env file in the auth-server folder will need the following fields:
 
-1. client_id (this will be the spotify api client id)
+1. client_id (this will be the Spotify api client id)
 
-2. client_secret (spotify api client secret)
+2. client_secret (this will be Spotify api client secret)
 
 The env file in the server folder will need the following fields:
 
-1. client_id (this will be the spotify api client id)
+1. client_id (this will be the Spotify api client id)
 
-2. client_secret (spotify api client secret)
+2. client_secret (this will be the Spotify api client secret)
 
 3. mongo_link (this will be your Mongo connection URI)
 
