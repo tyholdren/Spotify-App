@@ -4,6 +4,10 @@
 
 Spotify does a great job at recommending music based on a user's liked tracks, but oftentimes users favor one or two genres. What if you could see your top artists, genres, and get a breakdown detailing the percentage of each genre you listen to? Now you can! Log in with Spotify, get your stats and create a playlist of genres you typically don't listen to.<br /><br />
 
+<figure class="video_container">
+  <iframe src="https://www.youtube.com/watch?v=hha3hTJ6Ob4" frameborder="0" allowfullscreen="true"> </iframe>
+</figure>
+
 ## Who is this application for?
 
 Anyone who wants to broaden their musical scope by discovering new music they typically wouldn't.<br /><br />
