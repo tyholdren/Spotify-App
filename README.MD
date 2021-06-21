@@ -45,20 +45,20 @@ Add Genre:
 
 There are a wide variety of genres available on Spotify, to simplify things I've created a few general genres you can use as keywords to search for music. Use any of the below keywords to search add a specific genre:
 
-"rock"
-"rap"
-"hip hop"
-"jazz"
-"country"
-"emo"
-"folk"
-"indie"
-"r&b"
-"funk"
-"soul"
-"beats"
-"psychedelic"
-"grunge"
+rock
+rap
+hip hop
+jazz
+country
+emo
+folk
+indie
+r&b
+funk
+soul
+beats
+psychedelic
+grunge
 
 Once you've placed in your genre of choice click 'Add Genre' below the searchbar. Your playlist should generate. At any time you can hover over the image loaded in your playlist and click on the image to listen to the song.
 
