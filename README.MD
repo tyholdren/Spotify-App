@@ -12,19 +12,19 @@ Anyone who wants discover new music they typically wouldn't, in hopes of broaden
 
 - You will need to create two env files, (1) in the auth-server folder and (1) in the server folder.
 
-        The env file in the auth-server folder will need the following fields:
+The env file in the auth-server folder will need the following fields:
 
-        1. client_id (this will be the spotify api client id)
+1. client_id (this will be the spotify api client id)
 
-        2. client_secret (spotify api client secret)
+2. client_secret (spotify api client secret)
 
-        The env file in the server folder will need the following fields:
+The env file in the server folder will need the following fields:
 
-        1. client_id (this will be the spotify api client id)
+1. client_id (this will be the spotify api client id)
 
-        2. client_secret (spotify api client secret)
+2. client_secret (spotify api client secret)
 
-        3. mongo_link (this will be your Mongo connection URI)
+3. mongo_link (this will be your Mongo connection URI)
 
 - In your terminal navigate to the auth-server folder and run 'npm install', then 'npm start'
 - Open an additional terminal, navigate to the client folder and run 'npm install', then 'npm run dev'
