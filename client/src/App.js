@@ -89,7 +89,6 @@ class App extends Component {
             <p className="numberedList">.004</p>
             <Percentages className="percentages" />
           </div>
-          {/* <TrackRecs className="topArists"/> */}
         </div>
 
         <div className="playlist">

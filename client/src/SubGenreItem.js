@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class SubGenreItem extends Component {
   render() {
@@ -7,7 +7,7 @@ class SubGenreItem extends Component {
       <div>
         <p>{this.props.genre}</p>
       </div>
-    )
+    );
   }
 }
 export default SubGenreItem;

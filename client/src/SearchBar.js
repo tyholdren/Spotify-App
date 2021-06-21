@@ -1,30 +1,34 @@
-import React, { Component } from 'react';
-import './App.css';
-import SearchButtons from './SearchButtons';
+import React, { Component } from "react";
+import "./App.css";
+import SearchButtons from "./SearchButtons";
 
 class Searchbar extends Component {
   constructor() {
     super();
     this.state = {
-      search: ''
-    }
+      search: "",
+    };
     this.handleChangeSearch = this.handleChangeSearch.bind(this);
   }
 
   handleChangeSearch(event) {
-    this.setState({ search: event.target.value })
+    this.setState({ search: event.target.value });
     console.log(this.state.search);
   }
 
   render() {
     return (
       <div>
-        <input type="text" placeholder="Create Your Playlist" onChange={this.handleChangeSearch} className="searchbar" />
+        <input
+          type="text"
+          placeholder="Create Your Playlist"
+          onChange={this.handleChangeSearch}
+          className="searchbar"
+        />
         <SearchButtons text={this.state.search} />
-      </div >
-    )
+      </div>
+    );
   }
 }
 
 export default Searchbar;
-

@@ -81,3 +81,4 @@ If for some reason you reload your page and your playlist has vanished you can c
 In a further iteration of this application I would like game-ify a user's experience. Users would be rewarded for listening to music outside of their usual genres. There would also be a feature where users could see their ranking amongst other users via a global leaderboard. By implementing a 'reward system' users would likely feel a sense of accomplishment when using the application. This would also be an attempt to get users to spend more time on the application.
 
 <hr />
+# Spotify-App

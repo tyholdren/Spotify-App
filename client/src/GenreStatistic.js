@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class GenreStatistic extends Component {
   render() {
@@ -7,8 +7,8 @@ class GenreStatistic extends Component {
       <div>
         <p>{this.props.percentage}</p>
       </div>
-    )
+    );
   }
 }
 
-export default GenreStatistic
+export default GenreStatistic;

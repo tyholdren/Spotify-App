@@ -1,40 +1,39 @@
 .App {
-  display: flex; 
-  margin: 0px; 
-  padding: 0px; 
-} 
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
 
 * {
-  font-family: 'Arimo', sans-serif;
+  font-family: "Arimo", sans-serif;
   font-weight: 400;
-  font-size: 14px; 
+  font-size: 14px;
 }
 
 body {
-  margin: 0px; 
+  margin: 0px;
 }
 
-html { 
-  height: 100%; 
+html {
+  height: 100%;
 }
-
 
 .loginButton button {
-  color: white; 
+  color: white;
   margin: 40px 50px 0px 40px;
   background-color: transparent;
-  border: 1px solid white; 
-  border-radius: 7px; 
-  padding: 9px; 
+  border: 1px solid white;
+  border-radius: 7px;
+  padding: 9px;
   transition: all ease-in-out 300ms;
 }
 
 .loginButton button:hover {
-  color: #fe4c01; 
+  color: #fe4c01;
   margin: 50px 50px 0px 50px;
   background-color: white;
-  border-radius: 7px; 
-  padding: 9px; 
+  border-radius: 7px;
+  padding: 9px;
   cursor: pointer;
 }
 
@@ -44,24 +43,23 @@ hr {
 }
 
 .description {
-  color: white; 
-  margin: 40px 50px 0px 50px; 
+  color: white;
+  margin: 40px 50px 0px 50px;
   line-height: 200%;
   text-align: justify;
 }
 
-
 .topArtists {
-  display: flex; 
+  display: flex;
 }
 
-.columnOne, 
+.columnOne,
 .playlist {
-  margin: 0px, 15px; 
+  margin: 0px, 15px;
 }
 
 .loginButton {
-  width: 30%;  
+  width: 30%;
 }
 
 .infoSection {
@@ -69,9 +67,9 @@ hr {
 }
 
 .numberedList {
-  color: #fe4c01; 
-  margin-right: 100px; 
-  font-size: 16px
+  color: #fe4c01;
+  margin-right: 100px;
+  font-size: 16px;
 }
 
 .sectionHeading {
@@ -82,11 +80,11 @@ hr {
 }
 
 .columnOne {
-  width: 20%; 
-  background-color: #fe4c01; 
-  min-height: 100vh; 
+  width: 20%;
+  background-color: #fe4c01;
+  min-height: 100vh;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
   align-items: flex-end;
 }
 
@@ -102,27 +100,27 @@ hr {
 .songInfo.image:hover {
   transform: scale(1.02);
   cursor: pointer;
-  transition: all ease-in-out 250ms; 
+  transition: all ease-in-out 250ms;
 }
 
 .getInfo {
-  width: 30%; 
+  width: 30%;
   display: flex;
   flex-direction: column;
-  margin: 40px 70px 0px 250px; 
+  margin: 40px 70px 0px 250px;
 }
 
 .infoButtons {
-  margin: 16px 0px; 
-  padding: 0px; 
-  border: 0px solid; 
+  margin: 16px 0px;
+  padding: 0px;
+  border: 0px solid;
   background-color: transparent;
-  color: #fe4c01; 
-  font-family: 'Arimo', sans-serif;
+  color: #fe4c01;
+  font-family: "Arimo", sans-serif;
   font-weight: 700;
-  font-size: 16px; 
+  font-size: 16px;
   border-bottom: 1px solid transparent;
-  transition: all ease-in-out 1s; 
+  transition: all ease-in-out 1s;
 }
 
 .infoButtons:hover,
@@ -134,9 +132,9 @@ hr {
 .searchbar {
   width: 100%;
   margin-bottom: 20px;
-  border: 1px solid rgb(129, 129, 129); 
+  border: 1px solid rgb(129, 129, 129);
   border-radius: 15px;
-  height: 20px; 
+  height: 20px;
 }
 
 .buttonsContainer {
@@ -147,49 +145,51 @@ hr {
 
 .buttonsContainer button {
   background-color: transparent;
-  margin: 7px;  
-  padding: 0; 
-  border: 0px solid transparent; 
+  margin: 7px;
+  padding: 0;
+  border: 0px solid transparent;
   border-bottom: 1px solid transparent;
 }
 
 .buttonsContainer button:hover {
   background-color: transparent;
-  margin: 7px;  
-  border: 0px solid transparent; 
-  
+  margin: 7px;
+  border: 0px solid transparent;
+
   cursor: pointer;
   border-bottom: 1px solid;
 }
 
 input:focus {
-  outline:none;
+  outline: none;
 }
 
 ::-webkit-input-placeholder {
   text-align: center;
 }
 
-:-moz-placeholder { /* Firefox 18- */
-  text-align: center;  
+:-moz-placeholder {
+  /* Firefox 18- */
+  text-align: center;
 }
 
-::-moz-placeholder {  /* Firefox 19+ */
-  text-align: center;  
+::-moz-placeholder {
+  /* Firefox 19+ */
+  text-align: center;
 }
 
-:-ms-input-placeholder {  
-  text-align: center; 
+:-ms-input-placeholder {
+  text-align: center;
 }
 
-.playlistItem, 
-.artistTitle, 
-.artistname, 
+.playlistItem,
+.artistTitle,
+.artistname,
 .buttonsContainer,
 .middlePlaylistContainer {
- width: 100%;
- margin: 0px 0px; 
-} 
+  width: 100%;
+  margin: 0px 0px;
+}
 
 .middlePlaylistContainer {
   margin-top: 40px;
@@ -201,7 +201,7 @@ input:focus {
 }
 
 .songInfo {
-  margin: 15px 0px; 
+  margin: 15px 0px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -220,7 +220,7 @@ input:focus {
 
 .info.genre {
   margin-top: 5px;
-  color: #fe4c01; 
+  color: #fe4c01;
 }
 .songInfo.image {
   width: 100%;
@@ -229,10 +229,10 @@ input:focus {
 .artistTitle {
   display: flex;
   justify-content: flex-start;
-  margin: 15px 0px; 
+  margin: 15px 0px;
 }
 
 .artistName {
-  font-weight: 400; 
+  font-weight: 400;
   margin-top: 0px;
 }
