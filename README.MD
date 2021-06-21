@@ -43,7 +43,7 @@ Now you know which genres you don't frequent. Use this information to start crea
 
 **Add Genre:**
 
-There are a wide variety of genres available on Spotify, to simplify things I've created a few general genres you can use as keywords to search for music. Use any of the below keywords to search add a specific genre:
+There are thousands of genres available on Spotify, to simplify things I've created a few general genres you can use as keywords to search for music. Use any of the below keywords to search for a specific genre:
 
 - rock
 - rap
@@ -64,7 +64,7 @@ Once you've placed in your genre of choice click 'Add Genre' below the searchbar
 
 **Update Genre:**
 
-To update a specific genre in your playlist type the name of the genre you would like to update in the searchbar and click 'Update Genre', this will find the first instance of the genre and replace it.<br /><br />
+To update a specific genre in your playlist type the name of the genre you would like to update in the searchbar and click 'Update Genre', this will find the first instance of the specified genre and replace it.<br /><br />
 
 **Delete Artist:**
 
