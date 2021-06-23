@@ -1,4 +1,4 @@
-# Improve Your Musical Taste
+# Genre Generator
 
 ## Overview
 
